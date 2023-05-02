@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://projects1.sharepoint.com/sites/DeeplanPortal/Lists/VacationRequests/AllItems.aspx",
+      "customActions": {
+        "22856b16-4c01-44d0-b2c2-3c56b7b13473": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "vacationRequest": {
+      "pageUrl": "https://projects1.sharepoint.com/sites/DeeplanPortal/Lists/VacationRequests/AllItems.aspx",
+      "customActions": {
+        "22856b16-4c01-44d0-b2c2-3c56b7b13473": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

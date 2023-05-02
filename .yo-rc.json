@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "vacation-request-extentions",
+    "libraryId": "5854fc10-720d-4c24-896f-3dfe6b35038f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "vacation-request-extentions",
+    "solutionShortDescription": "vacation-request-extentions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
